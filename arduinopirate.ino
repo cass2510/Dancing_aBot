@@ -141,7 +141,7 @@ unsigned long lastLEDBlinkTime = 0; // 마지막 LED 깜빡임 시간
 const unsigned long moveInterval = 2000; // 이동 간격 (2초)
 const unsigned long ledBlinkInterval = 1000; // LED 깜빡임 간격 (1초)
 
-int currentNote = 0; // 현재 재생 중인 음표 인덱스
+int currentNote = 0; // 현재 재생 중인
 unsigned long noteStartTime = 0; // 현재 음표 시작 시간
 
 void setup() {
@@ -204,13 +204,13 @@ void moveBackward() {
 }
 
 void turnLeft() {
-  leftServo.write(90);  // 왼쪽 바퀴 정지
+  leftServo.write(0);  // 왼쪽 바퀴 후진
   rightServo.write(0);  // 오른쪽 바퀴 전진
 }
 
 void turnRight() {
-  leftServo.write(0);   // 왼쪽 바퀴 전진
-  rightServo.write(90); // 오른쪽 바퀴 정지
+  leftServo.write(180);   // 왼쪽 바퀴 전진
+  rightServo.write(180); // 오른쪽 바퀴 후진
 }
 
 void stopMovement() {
