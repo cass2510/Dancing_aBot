@@ -8,7 +8,7 @@
 ## 작동 영상
 - **Youtube 링크**
 - https://youtube.com/watch?v=bxx4N1GHesU&si=ATfoHWRUC3SOokv3
-- 
+  
 ## 주요 기능
 - **자동 주행**: 랜덤하게 전진, 후진, 좌회전, 우회전하며 바다를 항해합니다.
 - **음악 재생**: 피에조 스피커를 통해 캐리비안의 해적을 연주합니다.
